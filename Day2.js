@@ -44,24 +44,25 @@ console.log(`${bool5}, ${bool6}`)
 
 /* Logical Operators */
 // Task 11
-c1 = 77 > 46 && 56 < 23
+let c1 = 77 > 46 && 56 < 23
 console.log(c1)
 
 // Task 12
-c2 = 88 >= 48 || 16 != 16
+let c2 = 88 >= 48 || 16 != 16
 console.log(c2)
 
 // Task 13
-c3 = !(99 == 98)
+let c3 = !(99 == 98)
 console.log(c3)
 
 /* Ternary Operator */
 // Task 14
-ter = a > b ? "1st no. is Greater" : "1st no. is Smaller"
+let ter = a > b ? "1st no. is Greater" : "1st no. is Smaller"
 console.log(ter)
 
 //-----------------------------------------------------------
 /* Feature Requests */
+// 1
 let num1 = 100
 let num2 = 6
 console.log(`Sum= ${num1 + num2}`)
@@ -69,3 +70,8 @@ console.log(`Difference= ${num1 - num2}`)
 console.log(`Product= ${num1 * num2}`)
 console.log(`Quotient= ${num1 / num2}`)
 console.log(`Remainder= ${num1 % num2}`)
+
+// 2 requires combination of logical and comparison operators, which has already been done in the above tasks
+
+// 3
+let check = a > 0 ? "No. is positive" : "No. is negative"
