@@ -75,3 +75,4 @@ console.log(`Remainder= ${num1 % num2}`)
 
 // 3
 let check = a > 0 ? "No. is positive" : "No. is negative"
+console.log(check)
