@@ -18,6 +18,7 @@ OR
 ## Overview of the challenge 
 + Day 1: Variables and Data Types
 + Day 2: Operators
++ Day 3: Control Structures
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
