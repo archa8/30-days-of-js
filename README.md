@@ -19,6 +19,7 @@ OR
 + Day 1: Variables and Data Types
 + Day 2: Operators
 + Day 3: Control Structures
++ Day 4: Loops
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
