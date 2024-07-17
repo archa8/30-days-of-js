@@ -20,6 +20,7 @@ OR
 + Day 2: Operators
 + Day 3: Control Structures
 + Day 4: Loops
++ Day 5: Functions
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
