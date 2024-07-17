@@ -28,25 +28,25 @@ let d = function concatenate(a, b) { // Task 4: Write a function expression to c
 }
 console.log(d("Hello ", "World"));
 
-add = (a, b) => a + b; // Task 5
+add = (a, b) => a + b; // Task 5: Write an arrow function to calculate the sum of two numbers and return the result.
 console.log(add(5, 6));
 
-char = (str, ch) => { // Task 6
+char = (str, ch) => { // Task 6: Write an arrow function to check if a string contains a specific character and retum a boolean value.
     return str.includes(ch);
 }
 console.log(char("Archa", "a"));
 
-function product(a, b = 8) { // Task 7
+function product(a, b = 8) { // Task 7: Write a function that takes two parameters and returns their product. Provide a default value for the second parameter.
     return a * b;
 }
 console.log(product(5));
 
-function greeting(name, age) { // Task 8
+function greeting(name, age) { // Task 8: Write a function that takes a person's name and age and returns a greeting message. Provide a default value for the age.
     return `Hey ${name}! It's your ${age}th birthday.`;
 }
 console.log(greeting("Archa", 20));
 
-let hof1 = function f1(n, f) { // Task 9
+let hof1 = function f1(n, f) { // Task 9: Write a higher-order function that takes a function and a number, and calls the function that many times.
     for (let i = 0; i < n; i++) {
         f();
     }
@@ -56,7 +56,7 @@ function test() {
 }
 hof1(5, test);
 
-hof2 = (f1, f2, n) => { // Task 10
+hof2 = (f1, f2, n) => { // Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
     let res = f1(n);
     return f2(res);
 }
