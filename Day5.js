@@ -52,7 +52,7 @@ let hof1 = function f1(n, f) { // Task 9: Write a higher-order function that tak
     }
 }
 function test() {
-    console.log("*");
+    console.log("test");
 }
 hof1(5, test);
 
