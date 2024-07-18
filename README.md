@@ -21,6 +21,7 @@ OR
 + Day 3: Control Structures
 + Day 4: Loops
 + Day 5: Functions
++ Day 6: Arrays
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
