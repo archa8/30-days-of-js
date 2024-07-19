@@ -22,6 +22,7 @@ OR
 + Day 4: Loops
 + Day 5: Functions
 + Day 6: Arrays
++ Day 7: Objects
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
