@@ -24,6 +24,7 @@ OR
 + Day 6: Arrays
 + Day 7: Objects
 + Day 8: ES6+ Features
++ Day 9: DOM Manipulation
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
