@@ -26,6 +26,7 @@ OR
 + Day 8: ES6+ Features
 + Day 9: DOM Manipulation
 + Day 10: Event Handling
++ Day 11: Promises and Async, Await
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
