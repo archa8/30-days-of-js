@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "name": "task8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "web": "^0.0.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
