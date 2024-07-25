@@ -27,6 +27,8 @@ OR
 + Day 9: DOM Manipulation
 + Day 10: Event Handling
 + Day 11: Promises and Async, Await
++ Day 12: Error Handling
++ Day 13: Modules
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
