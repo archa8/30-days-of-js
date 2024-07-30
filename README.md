@@ -33,6 +33,7 @@ OR
 + Day 15: Closures
 + Day 16: Recursion
 + Day 17: Data Structures
++ Day 18: Algorithms
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
