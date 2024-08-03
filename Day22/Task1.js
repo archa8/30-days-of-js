@@ -1,5 +1,5 @@
 /*
-Activity/Task 1
+Activity/Task 1: Add Two Numbers
 */
 
 addTwoNumbers = (l1, l2) => {
