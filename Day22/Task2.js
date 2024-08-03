@@ -1,5 +1,5 @@
 /*
-Activity/Task1: Longest substring without repeating characters
+Activity/Task 2: Longest substring without repeating characters
 */
 
 lengthOfLongestSubstring = (str) => {
