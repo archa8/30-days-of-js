@@ -1,3 +1,7 @@
+/*
+Activity/Task 4: N-Queens
+*/
+
 /**
  * @param {number} n
  * @return {string[][]}
