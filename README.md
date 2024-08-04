@@ -35,6 +35,10 @@ OR
 + Day 17: Data Structures
 + Day 18: Algorithms
 + Day 19: Regular Expressions
++ Day 20: LocalStorage and SessionStorage
++ Day 21: LeetCode Easy
++ Day 22: LeetCode Medium
++ Day 23: LeetCode Hard
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
