@@ -39,6 +39,7 @@ OR
 + Day 21: LeetCode Easy
 + Day 22: LeetCode Medium
 + Day 23: LeetCode Hard
++ Day 24: Project 1 - Weather App
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
