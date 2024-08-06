@@ -40,6 +40,7 @@ OR
 + Day 22: LeetCode Medium
 + Day 23: LeetCode Hard
 + Day 24: Project 1 - Weather App
++ Day 25: Project 2 - Movie Search App
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
