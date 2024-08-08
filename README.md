@@ -42,6 +42,7 @@ OR
 + Day 24: Project 1 - Weather App
 + Day 25: Project 2 - Movie Search App
 + Day 26: Project 3 - Chat Application
++ Day 27: Project 4 - Task Management App
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
