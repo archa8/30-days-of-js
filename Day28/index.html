@@ -6,6 +6,7 @@
     <title>Project 5 - E-commerce Website </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <header>
@@ -47,7 +48,80 @@
             <h2>Total: $101.98</h2>
             <a href="#" class="btn">Checkout</a>
         </div>
+        <div class="user">
+            <h2>Login Now</h2>
+            <input type="email" placeholder="E-mail">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Login" class="login-btn">
+            <p>Forgot Password? <a href="#">Reset Password</a></p>
+            <p>Don't have an account? <a href="#">Create Account</a></p>
+        </div>
     </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Shop Now</span>
+            <h1>New Arrivals</h1>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="home-img">
+            <img src="img/home.jpg" alt="">
+        </div>
+    </section>
+    <section class="new" id="new">
+        <div class="heading">
+            <h1>New <span>Arrivals</span></h1>
+        </div>
+        <div class="swiper new-arrival">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="img/new1.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new2.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="img/new3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div> 
+                <div class="swiper-slide box">
+                    <img src="img/new4.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <div class="heading">
+            <h1>Our <span>Products</span></h1>
+        </div>
+        <div class="product-container">
+            <div class="box">
+                <img src="img/p1.jpg" alt="">
+                <div class="content">
+                    <h2>T-shirt 14A</h2>
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' style='color: #000;' ></i>
+                    </div>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

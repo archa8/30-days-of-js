@@ -42,6 +42,7 @@ html::-webkit-scrollbar-track {
 }
 img {
     width: 100%;
+    cursor: pointer;
 }
 section {
     padding: 50px 100px;
@@ -142,5 +143,117 @@ header {
     font-weight: 600;
 }
 .cart.active {
-
+    right: 1rem;
+    transition: 0.2s;
 }  
+.user {
+    position: absolute;
+    right: -100%;
+    top: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: var(--box-shadow);
+}
+.user h2 {
+    font-size: 1.2rem;
+    color: var(--text-color)
+}
+.user .login-btn {
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+.user .login-btn:hover {
+    background: var(--text-color);
+}
+.user input {
+    border: none;
+    outline: none;
+    background: var(--second-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.user p {
+    font-size: 0.938rem;
+}
+.user a {
+    text-decoration: underline;
+    color: var(--main-color);
+}
+.user.active {
+    right: 1rem;
+    transition: 0.2s;
+}
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--second-color);
+}
+.home-text span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.home-text h1 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+}
+.heading {
+    text-align: center; 
+}
+.heading h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--text-color);
+}
+.heading span {
+    padding: 0.2rem 1.2rem;
+    background: var(--main-color);
+    color: var(--bg-color);
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+}
+.new-arrival {
+    margin-top: 2rem;
+}
+.new-arrival .box {
+    position: relative;
+    overflow: hidden;
+    background: var(--second-color);
+}
+.new-arrival .box img {
+    background: var(--second-color);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.new-arrival .box .content {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 91%, 0.5);
+    overflow: hidden;
+}
+.new-arrival .box:hover .content {
+    top: 0;
+    transition: 0.2s;
+}
