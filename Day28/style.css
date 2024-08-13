@@ -257,3 +257,117 @@ header {
     top: 0;
     transition: 0.2s;
 }
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.product-container .box {
+    position: relative;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+.product-container .box .content h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.product-container .box .content .stars .bx {
+    color: var(--main-color);
+}
+.product-container .box .bx-cart-alt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 24px;
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.product-container .box .bx-cart-alt:hover {
+    background: var(--text-color);
+}
+.product-container .box:hover img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transition: 0.5s;
+}
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.reviews-container .box {
+    padding: 10px;
+    border: 2px solid var(--text-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.reviews-container .box img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.reviews-container .box .stars .bx {
+    color: var(--main-color);
+}
+.reviews-container .box p {
+    font-size: 0.938rem;
+    font-style: italic;
+    margin: 0.5rem 0.5rem;
+}
+.reviews-container .box h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.reviews-container .box:hover {
+    background: var(--text-color);
+    color: var(--main-color);
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1rem;
+    color: var(--text-color);
+}
+.footer-box h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-box p {
+    font-size: 0.938rem;
+    line-height: 1.5;
+}
+.social a .bx{
+    font-size: 24px;
+    color: var(--main-color);
+    padding: 10px;
+    background: var(--second-color);
+    border-radius: 0.5rem;
+}
+.social a .bx:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+.footer-box h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-box li a {
+    color: var(--text-color);
+}
+.footer-box li a:hover {
+    color: var(--main-color);
+}
+.payment {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.product-container {
+    width: 44px;
+}

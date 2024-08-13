@@ -34,4 +34,4 @@ var swiper = new Swiper(".new-arrival", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+});
