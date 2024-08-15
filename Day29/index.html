@@ -1,31 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 6 - Social Media Dashboard</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <div class="top">
-                <div class="logo">
-                    <h2>C<span class="danger">Archa</span></h2>
-                </div>
-                <div class="close">
-                    <span></span>
-                </div>
-            </div>
-        </aside>
-        <main>
-            
-        </main>
-        <div class="right">
-            
-        </div>
-    </div>
+  <div class="container">
+		<aside>
+			<div class="top">
+				<div class="logo">
+					<img src="./images/logo.png" alt="">
+					<h2>EGA<span class="danger">TOR</span></h2>
+				</div>
+				<div class="close" id="close-btn">
+					<span class="material-symbols-outlined">close</span>
+				</div>
+			</div>
 
-    <script src="script.js"></script>
+			<div class="sidebar">
+				<a href="#">
+					<span class="material-symbols-outlined">grid_view</span>
+					<h3>Dashboard</h3>
+				</a>
+				<a href="#" class="active">
+					<span class="material-symbols-outlined">person</span>
+					<h3>Customers</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">receipt_long</span>
+					<h3>Orders</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">trending_up</span>
+					<h3>Analytics</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">mail</span>
+					<h3>Messages</h3>
+					<span class="message-count">26</span>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">inventory</span>
+					<h3>Products</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">report</span>
+					<h3>Reports</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">settings</span>
+					<h3>Settings</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">add</span>
+					<h3>Add Product</h3>
+				</a>
+				<a href="#">
+					<span class="material-symbols-outlined">logout</span>
+					<h3>Logout</h3>
+				</a>
+			</div>
+		</aside>
+
+		<main>
+			<h1>Dashboard</h1>
+			<div class="date">
+				<input type="date">
+			</div>
+
+			<div class="insights">
+				<div class="sales">
+					<span class="material-symbols-outlined">analytics</span>
+					<div class="middle">
+						<div class="left">
+							<h3>Total Sales</h3>
+							<h1>$25,000</h1>
+						</div>
+						<div class="progress">
+							<svg>
+								<circle cx="38" cy="38" r="36"></circle>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
 </body>
 </html>
