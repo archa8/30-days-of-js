@@ -16,6 +16,9 @@
   --btn-padding: 0.6rem 2rem;
   --search-padding: 0.6rem 1rem;
   --card-padding: 1rem;
+
+  --sticky-top-left: 5.4rem;
+  --sticky-top-right: -18rem;
 }
 
 *, 
@@ -119,4 +122,22 @@ nav .create {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+main {
+  position: relative;
+  top: 5.4rem;
+}
+
+main .container {
+  display: grid;
+  grid-template-columns: 18vh auto 20vw;
+  column-gap: 1rem;
+  position: relative;
+}
+
+main .container .left {
+  height: max-content;
+  position: sticky;
+  top: var(--sticky-top-left);
 }
