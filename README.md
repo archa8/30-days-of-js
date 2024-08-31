@@ -45,6 +45,7 @@ OR
 + Day 27: Project 4 - Task Management App
 + Day 28: Project 5 - E-commerce Website
 + Day 29: Project 6 - Social Media Dashboard
++ Day 30: Project 7 - Fully Responsive Social Media Dashboard
 
 ## Resources to refer
 1. https://www.w3schools.com/js/
