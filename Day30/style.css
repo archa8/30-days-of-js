@@ -157,3 +157,40 @@ main .container .left .profile {
   background: var(--color-white);
   border-radius: var(--card-border-radius);
 }
+
+.left .sidebar .menu-item {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  translate: all 300ms ease;
+  position: relative;
+}
+
+.left .sidebar i {
+  font-size: 1.4rem;
+  color: var(--color-gray);
+  margin-left: 2rem;
+  position: relative;
+}
+
+.left .sidebar i .notification-count {
+  background: var(--color-danger);
+  color: white;
+  font-size: 0.7rem;
+  width: fit-content;
+  border-radius: 0.8rem;
+  padding: 0.1rem 0.4rem;
+  position: absolute;
+  top: -0.2rem;
+  right: -0.3rem;
+}
+
+.left .sidebar h3 {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.left .sidebar .active {
+  background: var(--color-light);
+}
